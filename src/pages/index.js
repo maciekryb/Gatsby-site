@@ -1,4 +1,4 @@
-import { Link, graphql } from "gatsby";
+import { Link } from "gatsby";
 import * as React from "react";
 import Layout from "../components/Layout";
 import { header, btn } from "../styles/home.module.css";
