@@ -29,7 +29,7 @@ export default function Projects({ data }) {
 
 export const query = graphql`
   query MyQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
       nodes {
         frontmatter {
           slug
